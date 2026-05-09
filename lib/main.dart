@@ -250,7 +250,7 @@ class _LiquidGlassNavBarState extends State<_LiquidGlassNavBar>
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(barHeight / 2),
                     child: BackdropFilter(
-                      filter: ui.ImageFilter.blur(sigmaX: 26, sigmaY: 26),
+                      filter: ui.ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(barHeight / 2),
@@ -288,7 +288,7 @@ class _LiquidGlassNavBarState extends State<_LiquidGlassNavBar>
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(pillH / 2),
                           child: BackdropFilter(
-                            filter: ui.ImageFilter.blur(sigmaX: 12, sigmaY: 12),
+                            filter: ui.ImageFilter.blur(sigmaX: 1, sigmaY: 1),
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(pillH / 2),
